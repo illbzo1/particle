@@ -1,11 +1,8 @@
 # Particle
-Code for playing with the Particle Photon kit
+Code for playing with the Particle Photon kit.
 
-From the root directory, apps can be compiled like so:
+Binaries don't need to be kept. A binary can be quickly compiled and flashed to the device, like so:
 
-particle compile <device_name> <app_name.ino>
+Compile: particle compile device_name app_name.ino
 
-Once the code is compiled, it can be flashed to the device like so:
-
-particle flash <device_name> <app_name.ino>
-
+Flash: particle flash device_name app_name.ino
